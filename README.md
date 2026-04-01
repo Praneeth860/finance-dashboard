@@ -108,7 +108,6 @@ npm run dev
 ## 🙌 Author
 
 Built by **Praneeth**
-Frontend Developer | React Enthusiast
 
 ---
 
