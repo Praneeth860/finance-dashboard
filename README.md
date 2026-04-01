@@ -1,60 +1,117 @@
-# Finance Dashboard
+# 💰 FinanceIQ Dashboard
 
-## Description
-The Finance Dashboard is a Vue.js application designed to provide users with insightful analytics and visualizations related to their financial activities. Users can track expenses, income, budgets, and investments in an interactive and user-friendly interface.
+A modern and interactive **Finance Dashboard** built using React, Tailwind CSS, and Recharts.
+This application helps users track income, expenses, and financial insights with a clean UI and real-time analytics.
 
-## Features
-- **User Authentication**: Secure login and account management.
-- **Real-time Analytics**: Live updates on financial data and trends.
-- **Custom Dashboards**: Users can create personalized dashboards with widgets.
-- **Reports**: Generate and download detailed financial reports.
-- **Responsive Design**: Works seamlessly on desktop and mobile devices.
-- **Data Visualization**: Charts and graphs for intuitive understanding of data.
+---
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Praneeth860/finance-dashboard.git
-   cd finance-dashboard
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+## 🚀 Features
 
-3. Run the application:
-   ```bash
-   npm run serve
-   ```
-   Access the application at `http://localhost:8080`.
+* 📊 **Dashboard Overview**
 
-## Usage
-- **Dashboard**: View your financial summaries at a glance.
-- **Add Transactions**: Record income and expenses to maintain accurate financial tracking.
-- **Analyze Trends**: Use the analytics section to view trends over specific periods.
+  * Total balance, income, expenses, and savings rate
+* 📈 **Charts & Visualization**
 
-## Development Setup
-To contribute to the project:
-1. Fork the repository.
-2. Create a new branch for your feature:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Make your changes and commit them:
-   ```bash
-   git commit -m "Add some feature"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request.
+  * Income vs Expenses (Bar + Line chart)
+  * Spending breakdown (Pie chart)
+* 🧾 **Transaction Management**
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+  * Add, edit, and delete transactions
+* 🔍 **Filtering & Sorting**
 
-## Acknowledgements
-- Vue.js framework for building the application.
-- [Chart.js](https://www.chartjs.org/) for data visualization.
-- [Vue Router](https://router.vuejs.org/) for routing functionality. 
-- [Vuex](https://vuex.vuejs.org/) for state management.
+  * Filter by type, category, and search
+* 💡 **Insights Page**
+
+  * Smart analytics (best month, top category, savings rate)
+* 🌙 **Dark Mode**
+
+  * Toggle between light and dark themes
+* 💾 **Local Storage**
+
+  * Data persists across refresh
+
+---
+
+## 🛠️ Tech Stack
+
+* ⚛️ React (Hooks + Context API)
+* 🎨 Tailwind CSS (v4)
+* 📊 Recharts (Data Visualization)
+* ⚡ Vite (Build tool)
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── context/            # Global state management
+├── data/               # Mock data
+├── components/
+│   ├── layout/         # Sidebar, Header
+│   ├── dashboard/      # Dashboard UI
+│   ├── transactions/   # Transaction UI
+│   └── insights/       # Analytics page
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# Clone the repo
+git clone <your-repo-link>
+
+# Go into project
+cd finance-dashboard
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+
+---
+
+## 🧪 Usage
+
+* Switch roles (Admin / Viewer)
+* Add or edit transactions (Admin only)
+* View insights and charts
+* Toggle dark mode
+
+---
+
+## 💡 Key Concepts Implemented
+
+* Global state using Context + useReducer
+* Derived data (summary, charts, analytics)
+* Component-based architecture
+* Reusable UI components
+* Local storage persistence
+
+---
+
+## 📌 Future Improvements
+
+* Backend integration (Node.js / Firebase)
+* Authentication system
+* Export reports (PDF/CSV)
+* Advanced filtering & pagination
+
+---
+
+## 🙌 Author
+
+Built by **Praneeth**
+Frontend Developer | React Enthusiast
+
+---
+
+## ⭐ If you like this project
+
+Give it a ⭐ on GitHub!
